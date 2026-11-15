@@ -1,8 +1,9 @@
 name: Test
 
-# Checks the cask after every update GoReleaser pushes to main, on pull
-# requests, weekly and by hand: it installs and reports its version, and every
-# archive it names comes from cfgaudit's release build (#3).
+# Checks the formula after every change on main (the daily update commits
+# there), on pull requests, weekly and by hand: it installs, passes its test
+# block and reports its version, and every archive it names comes from
+# cfgaudit's release build (#3, #6).
 on:
   push:
     branches: [main]
