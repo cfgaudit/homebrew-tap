@@ -3,28 +3,28 @@
 class Cfgaudit < Formula
   desc "Security auditor for AI-agent configuration files"
   homepage "https://github.com/cfgaudit/cfgaudit"
-  version "1.22.0"
+  version "1.23.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/cfgaudit/cfgaudit/releases/download/v#{version}/cfgaudit_#{version}_darwin_arm64.tar.gz"
-      sha256 "7a9d01152c28a7dca13a712f71cfc65746fea8f6cadbfb217e3edae4ab044382"
+      sha256 "f4f9fdc957c87844ab06f1d3e12025d34d2fb470de5967397e508bdf977222b1"
     end
     on_intel do
       url "https://github.com/cfgaudit/cfgaudit/releases/download/v#{version}/cfgaudit_#{version}_darwin_amd64.tar.gz"
-      sha256 "9dcaf9b065409e13488270ed3085837555a6f2eb4f603e1d41972251e72bb50a"
+      sha256 "6533ecb56a366eb944d3eb971f593fc64fb811fa5053caad6e8c7ab6dbe401a6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/cfgaudit/cfgaudit/releases/download/v#{version}/cfgaudit_#{version}_linux_arm64.tar.gz"
-      sha256 "17bd1f2c59cca3ceb0ac01a637e3ffa13801c06bd3241e8b0d34c94dd6759980"
+      sha256 "c8ec136d4127204e9b63d56d83df8b37876ce874e776a23e2640ffe0a6532e53"
     end
     on_intel do
       url "https://github.com/cfgaudit/cfgaudit/releases/download/v#{version}/cfgaudit_#{version}_linux_amd64.tar.gz"
-      sha256 "eaac314b06917442881c302c38af22b7191d79e46c4b874a07fa659392e61171"
+      sha256 "31af5dd40725fe58e2713e7f6dacf8c4536490dd411e994bfc955981d14fbad2"
     end
   end
 
